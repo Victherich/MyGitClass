@@ -1,0 +1,101 @@
+.DashBoard{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white
+}
+
+.DashBoardLeft{
+    width: 25%;
+    height: 100vh;
+    background-color:rgb(233, 231, 231);
+    color: rgb(29, 28, 28);
+    border-right: 1px solid light gray;
+}
+
+.DashBoardLeftDark{
+    width: 25%;
+    height: 100vh;
+    background-color:#1D1D41;;
+}
+
+.DashBoardRight{
+    min-width: 75%;
+    width: 100%;
+    height: 100vh;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.DashBoardRightDark{
+    min-width: 75%;
+    width: 100%;
+    height: 100vh;
+    background-color:#141332;
+    display: flex;
+    flex-direction: column;
+}
+
+.DashBoardRightUp{
+    display: flex;
+    justify-content: space-around;
+    background-color:#F9F9F9;
+    width: 100%;
+    height: 15vh;
+    border-left:1px solid lightgray;
+    align-items: center;
+    color: rgb(22, 21, 21);
+}
+
+.DashBoardRightUpDark{
+    display: flex;
+    justify-content: space-around;
+    background-color:#42417A;
+    width: 100%;
+    height: 15vh;
+    border-left:1px solid lightgray;
+    align-items: center;
+}
+
+.DashBoardRightDown{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ShowSideBar{
+    position: absolute;
+    top:88%;
+    left:2%;
+    cursor: pointer;
+    background-color:#6259E8;
+    font-size: 11px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 120ms;
+    transform: scale(1);
+    font-weight: bold;
+}
+
+.ShowSideBar:hover{
+    transform: scale(1.06);
+}
+
+.ShowSideBar:active{
+    transform: scale(0.9);
+}
+
+.DashBoardRightMid{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}

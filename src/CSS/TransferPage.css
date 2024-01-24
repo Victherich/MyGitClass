@@ -1,0 +1,88 @@
+.TransferPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    background-color:rgb(228, 227, 227);
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    color: black
+}
+
+.TransferPageDark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    background-color: #42417A;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.TransferPage input{
+    width: 40%;
+    height: 12%;
+    font-size: 18px;
+    background-color: gray;
+    outline:none;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+}
+
+.TransferPage input::placeholder{
+    color:lightgray;
+}
+
+.TransferPageDark input{
+    width: 40%;
+    height: 12%;
+    font-size: 18px;
+    background-color:#1F1F45;
+    outline:none;
+    padding:10px;
+    color:white;
+    border-radius: 5px;
+}
+
+.TransferPage button{
+    font-weight: bold;
+    width: 40%;
+    height: 13%;
+    border-radius: 10px;
+    background-color: #6259E8;
+    border: none;
+    font-size: 16px;
+    color:white;
+    transform: scale(1);
+    transition: 120ms;
+    cursor: pointer;
+}
+
+.TransferPageDark button{
+    font-weight: bold;
+    width: 40%;
+    height: 13%;
+    border-radius: 10px;
+    background-color: #6259E8;
+    border: none;
+    font-size: 16px;
+    color:white;
+    transform: scale(1);
+    transition: 120ms;
+    cursor: pointer;
+}
+
+.TransferPage button:hover{
+    transform: scale(1.06);
+}
+
+.TransferPage button:active{
+    transform: scale(0.9);
+}

@@ -1,0 +1,42 @@
+.BalanceInfo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    background-color:#42417A;
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.BalanceInfoUp{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.BalanceViewImage{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.BalanceViewImage img{
+    width:30px;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.BalanceViewImage img:hover{
+    transform: scale(1.06);
+}
+
+.BalanceViewImage img:active{
+    transform: scale(0.9);
+}

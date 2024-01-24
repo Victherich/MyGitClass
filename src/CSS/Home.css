@@ -1,0 +1,44 @@
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    background-color: rgb(228, 227, 227);
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    color:black 
+}
+
+.HomeDark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+    background-color: #42417A;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black; 
+}
+
+.HomeUp{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.HomeDown{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}

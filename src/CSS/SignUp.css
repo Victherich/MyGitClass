@@ -1,0 +1,73 @@
+.SignUpWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color:#42417A;
+}
+
+.SignUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+.SignUp form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 95vh;
+    /* background-color: red; */
+}
+
+.SignUp form label{
+    width: 40%;
+    height: 60px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.SignUp form label input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    /* border: none; */
+    outline: none;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+.SignUp form button{
+    background-color:#6259E8;
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 120ms;
+    transform: scale(1);
+}
+
+.SignUp form button:hover{
+    transform: scale(1.06);
+}
+
+.SignUp form button:active{
+    transform: scale(0.9);
+}

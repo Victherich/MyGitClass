@@ -1,0 +1,61 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding: 25px;
+    font-size: 14px;
+}
+
+.HeaderLeft{
+    display: flex;
+    gap:10px;
+}
+
+.HeaderLeft1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.ProfileImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height: 50px;
+    background-color:#42417A;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.ProfileImage img{
+    width:100%;
+    height: 100%;
+}
+
+.HeaderRight{
+    display: flex;
+    width:20%;
+    /* background-color: red; */
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.HeaderRightLeft{
+    width: 50%;
+    display: flex;
+}
+
+.HeaderRightLeft p{
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.HeaderRightLeft p:hover{
+    transform: scale(1.06);
+}
+
+.HeaderRightLeft p:active{
+    transform: scale(0.9);
+}

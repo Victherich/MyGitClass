@@ -1,0 +1,84 @@
+.MenuSideBar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MenuSideBarUp{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    height: 15vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.MenuSideBarMiddle{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 70vh;
+    flex-direction: column;
+    padding: 20px;
+    gap: 5px;
+    
+}
+
+.MenuSideBarMiddle h4{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 12px;
+    transform: scale(1);
+    transition: 120ms;
+}
+
+.MenuSideBarMiddle h4:hover{
+    transform: scale(1.02);
+}
+
+.MenuSideBarMiddle h4:active{
+    transform: scale(0.9);
+}
+
+.MenuSideBarDown{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15vh;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 15px;
+    gap:10px;
+    padding-bottom: 50px;
+}
+
+.MenuSideBarDown p{
+    cursor: pointer;
+    padding: 5px;
+    background-color: #6259E8;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    transition: 120ms;
+    transform: scale(1);
+    width: 50%;
+    color: white;
+}
+
+.MenuSideBarDown p:hover{
+    transform: scale(1.02);
+}
+
+.MenuSideBarDown p:active{
+    transform: scale(0.9);
+}
+
+.ActiveMenu{
+    background-color:#6259E8;
+    border-radius: 10px;
+    color:white
+}
